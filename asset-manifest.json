@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/starter-project/static/css/main.a617e044.chunk.css",
-    "main.js": "/starter-project/static/js/main.1ba2048e.chunk.js",
-    "main.js.map": "/starter-project/static/js/main.1ba2048e.chunk.js.map",
-    "runtime-main.js": "/starter-project/static/js/runtime-main.26c32b1f.js",
-    "runtime-main.js.map": "/starter-project/static/js/runtime-main.26c32b1f.js.map",
-    "static/js/2.814c4e4b.chunk.js": "/starter-project/static/js/2.814c4e4b.chunk.js",
-    "static/js/2.814c4e4b.chunk.js.map": "/starter-project/static/js/2.814c4e4b.chunk.js.map",
-    "static/js/3.36d9bf97.chunk.js": "/starter-project/static/js/3.36d9bf97.chunk.js",
-    "static/js/3.36d9bf97.chunk.js.map": "/starter-project/static/js/3.36d9bf97.chunk.js.map",
-    "index.html": "/starter-project/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/starter-project/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.814c4e4b.chunk.js.LICENSE.txt": "/starter-project/static/js/2.814c4e4b.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/starter-project/static/media/logo.6ce24c58.svg"
+    "main.css": "/FindEDMShowsVegasReact/static/css/main.a617e044.chunk.css",
+    "main.js": "/FindEDMShowsVegasReact/static/js/main.1ba2048e.chunk.js",
+    "main.js.map": "/FindEDMShowsVegasReact/static/js/main.1ba2048e.chunk.js.map",
+    "runtime-main.js": "/FindEDMShowsVegasReact/static/js/runtime-main.50a3dc1a.js",
+    "runtime-main.js.map": "/FindEDMShowsVegasReact/static/js/runtime-main.50a3dc1a.js.map",
+    "static/js/2.814c4e4b.chunk.js": "/FindEDMShowsVegasReact/static/js/2.814c4e4b.chunk.js",
+    "static/js/2.814c4e4b.chunk.js.map": "/FindEDMShowsVegasReact/static/js/2.814c4e4b.chunk.js.map",
+    "static/js/3.36d9bf97.chunk.js": "/FindEDMShowsVegasReact/static/js/3.36d9bf97.chunk.js",
+    "static/js/3.36d9bf97.chunk.js.map": "/FindEDMShowsVegasReact/static/js/3.36d9bf97.chunk.js.map",
+    "index.html": "/FindEDMShowsVegasReact/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/FindEDMShowsVegasReact/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.814c4e4b.chunk.js.LICENSE.txt": "/FindEDMShowsVegasReact/static/js/2.814c4e4b.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/FindEDMShowsVegasReact/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.26c32b1f.js",
+    "static/js/runtime-main.50a3dc1a.js",
     "static/js/2.814c4e4b.chunk.js",
     "static/css/main.a617e044.chunk.css",
     "static/js/main.1ba2048e.chunk.js"
