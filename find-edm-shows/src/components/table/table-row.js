@@ -76,7 +76,7 @@ function TableRow() {
            {/* <div className="icon p-4 m-2 h-20 w-20 bg-cover bg-center bg-no-repeat"
                 style={{backgroundImage: `url(${findArtistImage('')})` }}></div> */}
         {data.map(eventData => (
-            <div key={eventData._id} className="row bg-gray-400 bg-opacity-20 pr-1 min-h-20 w-full flex justify-between my-2 hover:shadow-2xl 
+            <div key={eventData._id} className="row bg-gray-400 bg-opacity-20 pr-1 min-h-20 w-full flex justify-between my-2 hover:shadow-2xl
             items-center transition duration-500 ease-in-out transform hover:-translate-y-1">
                 <div className="eventDate h-full w-1/6   flex flex-col justify-center pl-5 tracking-wider">
                         <div className="month day flex font-extrabold text-3xl">
@@ -99,8 +99,9 @@ function TableRow() {
                 </div>
 
                 <div className="eventLink h-full w-28  flex items-center justify-center ">
-                    <button className="view-details rounded-full bg-gray-400 bg-opacity-50 py-2 px-2 capitalize font-semibold hover:bg-opacity-90
-                    transition duration-200 ease-in-out">view event</button>
+                    <a className="view-details rounded-full bg-gray-400 bg-opacity-50 py-2 px-2 capitalize font-semibold hover:bg-opacity-90
+                    transition duration-200 ease-in-out"
+                    href={eventData.ticketurl} target="_blank" rel="noreferrer">view event</a>
                 </div>
                 {/* <li>{eventData.artistname}</li> */}
             </div>
