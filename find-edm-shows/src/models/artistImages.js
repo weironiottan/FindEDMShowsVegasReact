@@ -381,9 +381,3 @@ function ArtistImages() {
 }
 
  export {ArtistImages}
-
-//  {
-//      name: '',
-//      image: ,
-
-//  },
