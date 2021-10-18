@@ -16,6 +16,9 @@ module.exports = {
       backgroundImage: {
         // 'hero-image': "url('./src/images/edm-hero-image.jpg')",
        },
+       width: {
+        'w-7xl' : '80rem'
+       },
        minWidth: {
         '1/3': '33.333333%',
 
@@ -30,7 +33,11 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      transitionProperty: ['hover', 'focus'],
+    },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
 }
