@@ -52,7 +52,7 @@ import r3habImg from '../images/r3hab.png'
 import rlgrimeImg from '../images/rl-grime.jpeg'
 import robgusonImg from '../images/rob-guson.png'
 import scooterImg from '../images/scooter.png'
-import shipwreckImg from '../images/ship-wreck.png'
+import shipwrekImg from '../images/ship-wrek.png'
 import steveaokiImg from '../images/steve-aoki.png'
 import tiestoImg from '../images/tiesto.png'
 import tygaImg from '../images/tyga.png'
@@ -61,6 +61,8 @@ import yoyolieImg from '../images/yo-yolie.png'
 import zeddImg from '../images/zedd.png'
 import zenfreemanImg from '../images/zen-freeman.png'
 import zhuImg from '../images/zhu.png'
+import thechainsmokersImg from '../images/the-chainsmokers.png'
+import calvinharrisImg from '../images/calvin-harris.png'
 
 
 function ArtistImages() {
@@ -92,6 +94,10 @@ function ArtistImages() {
         {
             name: 'bryce vine',
             image: bryceVineImg,     
+        },
+        {
+            name: 'calvin harris',
+            image: calvinharrisImg,
         },
         {
             name: 'carnage',
@@ -333,8 +339,8 @@ function ArtistImages() {
        
         },
         {
-            name: 'ship wreck',
-            image: shipwreckImg,
+            name: 'ship wrek',
+            image: shipwrekImg,
        
         },
         {
@@ -346,6 +352,10 @@ function ArtistImages() {
             name: 'tiësto',
             image: tiestoImg,
        
+        },
+        {
+            name: 'the chainsmokers',
+            image: thechainsmokersImg
         },
         {
             name: 'tyga',
