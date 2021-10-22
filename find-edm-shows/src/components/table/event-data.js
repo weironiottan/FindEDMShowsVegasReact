@@ -4,7 +4,7 @@ import { ArtistImages } from '../../models/artistImages'
 
 function getFormattedMonth(wholeDateStringUTC) {
     const currentMonth = new Date(wholeDateStringUTC).getMonth()
-    return Months().find((month, index) => {
+    return Months.find((month, index) => {
         return (index === currentMonth) && month
     }) 
 }
@@ -16,7 +16,7 @@ function getFormattedDay(wholeDateStringUTC) {
 
 function getFormattedWeekday(wholeDateStringUTC) {
     const currentWeekday = new Date(wholeDateStringUTC).getDay()
-    return Weekdays().find((weekday, index) => {
+    return Weekdays.find((weekday, index) => {
         return (index === currentWeekday) && weekday
     }) 
 }

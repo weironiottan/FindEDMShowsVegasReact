@@ -16,6 +16,11 @@ module.exports = {
       backgroundImage: {
         // 'hero-image': "url('./src/images/edm-hero-image.jpg')",
        },
+       height: {
+         '390': '390px',
+         '567': '567px'
+       },
+
        width: {
         'w-7xl' : '80rem'
        },

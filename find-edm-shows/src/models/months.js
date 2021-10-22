@@ -1,6 +1,5 @@
-//This will be eventually swapped for an interface model/models
- function Months() {
-   return  [
+
+ const Months = [
         'jan',
         'feb',
         'mar',
@@ -14,10 +13,9 @@
         'nov',
         'dec'
     ]
-}
 
-function Weekdays() {
-    return [
+
+const Weekdays = [
         "Sunday", 
         "Monday", 
         "Tuesday", 
@@ -26,6 +24,5 @@ function Weekdays() {
         "Friday", 
         "Saturday",
     ]
-}
 
 export { Months, Weekdays}
