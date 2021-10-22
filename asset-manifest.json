@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/FindEDMShowsVegasReact/static/css/main.a69c25f0.chunk.css",
-    "main.js": "/FindEDMShowsVegasReact/static/js/main.b8d9c46e.chunk.js",
-    "main.js.map": "/FindEDMShowsVegasReact/static/js/main.b8d9c46e.chunk.js.map",
-    "runtime-main.js": "/FindEDMShowsVegasReact/static/js/runtime-main.a36f2db0.js",
-    "runtime-main.js.map": "/FindEDMShowsVegasReact/static/js/runtime-main.a36f2db0.js.map",
-    "static/js/2.4847f932.chunk.js": "/FindEDMShowsVegasReact/static/js/2.4847f932.chunk.js",
-    "static/js/2.4847f932.chunk.js.map": "/FindEDMShowsVegasReact/static/js/2.4847f932.chunk.js.map",
-    "static/js/3.c1424575.chunk.js": "/FindEDMShowsVegasReact/static/js/3.c1424575.chunk.js",
-    "static/js/3.c1424575.chunk.js.map": "/FindEDMShowsVegasReact/static/js/3.c1424575.chunk.js.map",
+    "main.css": "/FindEDMShowsVegasReact/static/css/main.94632599.chunk.css",
+    "main.js": "/FindEDMShowsVegasReact/static/js/main.d2527a48.chunk.js",
+    "main.js.map": "/FindEDMShowsVegasReact/static/js/main.d2527a48.chunk.js.map",
+    "runtime-main.js": "/FindEDMShowsVegasReact/static/js/runtime-main.48f84346.js",
+    "runtime-main.js.map": "/FindEDMShowsVegasReact/static/js/runtime-main.48f84346.js.map",
+    "static/js/2.e4fdcd99.chunk.js": "/FindEDMShowsVegasReact/static/js/2.e4fdcd99.chunk.js",
+    "static/js/2.e4fdcd99.chunk.js.map": "/FindEDMShowsVegasReact/static/js/2.e4fdcd99.chunk.js.map",
+    "static/js/3.343470a1.chunk.js": "/FindEDMShowsVegasReact/static/js/3.343470a1.chunk.js",
+    "static/js/3.343470a1.chunk.js.map": "/FindEDMShowsVegasReact/static/js/3.343470a1.chunk.js.map",
     "index.html": "/FindEDMShowsVegasReact/index.html",
-    "static/css/main.a69c25f0.chunk.css.map": "/FindEDMShowsVegasReact/static/css/main.a69c25f0.chunk.css.map",
-    "static/js/2.4847f932.chunk.js.LICENSE.txt": "/FindEDMShowsVegasReact/static/js/2.4847f932.chunk.js.LICENSE.txt",
+    "static/css/main.94632599.chunk.css.map": "/FindEDMShowsVegasReact/static/css/main.94632599.chunk.css.map",
+    "static/js/2.e4fdcd99.chunk.js.LICENSE.txt": "/FindEDMShowsVegasReact/static/js/2.e4fdcd99.chunk.js.LICENSE.txt",
     "static/media/4b.239005cf.png": "/FindEDMShowsVegasReact/static/media/4b.239005cf.png",
     "static/media/alesso.9a77f260.jpeg": "/FindEDMShowsVegasReact/static/media/alesso.9a77f260.jpeg",
     "static/media/angie-vee.4d2f2124.png": "/FindEDMShowsVegasReact/static/media/angie-vee.4d2f2124.png",
@@ -81,9 +81,9 @@
     "static/media/zhu.e87eef33.png": "/FindEDMShowsVegasReact/static/media/zhu.e87eef33.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a36f2db0.js",
-    "static/js/2.4847f932.chunk.js",
-    "static/css/main.a69c25f0.chunk.css",
-    "static/js/main.b8d9c46e.chunk.js"
+    "static/js/runtime-main.48f84346.js",
+    "static/js/2.e4fdcd99.chunk.js",
+    "static/css/main.94632599.chunk.css",
+    "static/js/main.d2527a48.chunk.js"
   ]
 }
