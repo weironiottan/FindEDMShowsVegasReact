@@ -38,9 +38,9 @@ const EventData =({eventData}) => {
 
     return (
     <>
-        <div key={eventData._id} className="row bg-gray-400 bg-opacity-20 pr-1 min-h-20 w-full flex justify-between my-2 hover:shadow-2xl
+        <div key={eventData._id} className="row bg-gray-400 bg-opacity-20 my-2 pr-1 min-h-20 w-full flex justify-between hover:shadow-2xl
         items-center transition duration-500 ease-in-out transform hover:-translate-y-1">
-            <div className="eventDate h-full w-1/6   flex flex-col justify-center pl-5 tracking-wider">
+            <div className="eventDate h-full w-1/6 pl-5 flex flex-col justify-center tracking-wider">
                     <div className="month day flex font-extrabold text-3xl">
                         <div className="month font capitalize mr-3">{getFormattedMonth(eventData.eventdate)}</div>
                         <div className="day">{getFormattedDay(eventData.eventdate)}</div>
