@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/FindEDMShowsVegasReact/static/css/main.94632599.chunk.css",
-    "main.js": "/FindEDMShowsVegasReact/static/js/main.d2527a48.chunk.js",
-    "main.js.map": "/FindEDMShowsVegasReact/static/js/main.d2527a48.chunk.js.map",
+    "main.css": "/FindEDMShowsVegasReact/static/css/main.364ded95.chunk.css",
+    "main.js": "/FindEDMShowsVegasReact/static/js/main.6a7037ae.chunk.js",
+    "main.js.map": "/FindEDMShowsVegasReact/static/js/main.6a7037ae.chunk.js.map",
     "runtime-main.js": "/FindEDMShowsVegasReact/static/js/runtime-main.48f84346.js",
     "runtime-main.js.map": "/FindEDMShowsVegasReact/static/js/runtime-main.48f84346.js.map",
     "static/js/2.e4fdcd99.chunk.js": "/FindEDMShowsVegasReact/static/js/2.e4fdcd99.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.343470a1.chunk.js": "/FindEDMShowsVegasReact/static/js/3.343470a1.chunk.js",
     "static/js/3.343470a1.chunk.js.map": "/FindEDMShowsVegasReact/static/js/3.343470a1.chunk.js.map",
     "index.html": "/FindEDMShowsVegasReact/index.html",
-    "static/css/main.94632599.chunk.css.map": "/FindEDMShowsVegasReact/static/css/main.94632599.chunk.css.map",
+    "static/css/main.364ded95.chunk.css.map": "/FindEDMShowsVegasReact/static/css/main.364ded95.chunk.css.map",
     "static/js/2.e4fdcd99.chunk.js.LICENSE.txt": "/FindEDMShowsVegasReact/static/js/2.e4fdcd99.chunk.js.LICENSE.txt",
     "static/media/4b.239005cf.png": "/FindEDMShowsVegasReact/static/media/4b.239005cf.png",
     "static/media/alesso.9a77f260.jpeg": "/FindEDMShowsVegasReact/static/media/alesso.9a77f260.jpeg",
@@ -83,7 +83,7 @@
   "entrypoints": [
     "static/js/runtime-main.48f84346.js",
     "static/js/2.e4fdcd99.chunk.js",
-    "static/css/main.94632599.chunk.css",
-    "static/js/main.d2527a48.chunk.js"
+    "static/css/main.364ded95.chunk.css",
+    "static/js/main.6a7037ae.chunk.js"
   ]
 }
