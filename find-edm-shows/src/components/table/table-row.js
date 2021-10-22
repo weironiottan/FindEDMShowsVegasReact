@@ -3,6 +3,7 @@ import { useQuery } from "react-query";
 import { useContext } from 'react';
 import { SearchBoxContext } from '../../contexts/searchBoxContext';
 import EventData from './event-data';
+import Loader from "react-loader-spinner";
 
 
 const getEDMEventsResults = async () => {
@@ -17,9 +18,13 @@ function TableRow() {
     const { selectedSearchValue } = useContext(SearchBoxContext);
 
     const { isLoading, isError, data, error } = useQuery("edmEventsResults", getEDMEventsResults);
+    
 
     if (isLoading) {
-        return <span>Loading...</span>
+        return   <div className="flex justify-center items-center pt-20">
+            <Loader type="Bars" color="#eeeeee" height={100}width={100} />
+        </div>
+        
       }
     
       if (isError) {

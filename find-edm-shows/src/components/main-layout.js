@@ -1,8 +1,8 @@
-import Header from './components/header/header';
-import TableRow from './components/table/table-row'
-import SearchBoxContextProvider from './contexts/searchBoxContext';
+import Header from './header/header';
+import TableRow from './table/table-row'
+import SearchBoxContextProvider from '../contexts/searchBoxContext';
 
-function Layout() {
+function MainLayout() {
 
     return (
      <>
@@ -11,7 +11,7 @@ function Layout() {
         <Header />
         <section className="main-section  w-full mx-auto max-w-7xl text-white p-5 ">
             <div className="table  px-5 py-5 w-full  mt-2 bg-gray-900 bg-opacity-60 ">
-                <div className="h-120 overflow-y-auto">
+                <div className="h-567 overflow-y-auto">
                 <TableRow /> 
                 </div>       
             </div>            
@@ -22,4 +22,4 @@ function Layout() {
     )
 
 }
-export default Layout;
+export default MainLayout;
