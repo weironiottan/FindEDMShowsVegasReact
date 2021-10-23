@@ -20,7 +20,7 @@ function SearchBox() {
 
     return(
         <>
-        <div className="search-artist-name w-6/12 h-12 flex px-8 text-coolGray-300">
+        <div className="search-artist-name py-5 sm:py-0 w-full sm:w-6/12 sm:h-12 flex flex-col sm:flex-row sm:px-8 text-coolGray-300">
             <SearchSelect selectValueProp= {setSelectedSearchTerm} />
             <SearchInput searchValuePropInput={selectedSearchTerm} searchValuePropOutput={setSearchInputValue} />
         </div>

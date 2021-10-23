@@ -12,7 +12,7 @@ function SearchSelect({ selectValueProp }) {
 
     return(
         <>
-        <select className="text-xl rounded-xl bg-opacity-60 bg-warmGray-800 font-semibold
+        <select className="mx-5 mb-3 sm:mb-0 sm:mx-0 text-xl rounded-xl bg-opacity-60 bg-warmGray-800 font-semibold
         transition duration-500 ease-in-out transform hover:-translate-y-1
         border-transparent 
         hover:text-coolGray-100 hover:bg-opacity-80
