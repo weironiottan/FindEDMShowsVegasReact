@@ -14,7 +14,7 @@ function TextInput({ textInputProp, textValueChangedProp }) {
 
     return(
         <>
-            <input className="artist-name flex-grow ml-7 text-2xl rounded-xl bg-opacity-60 bg-gray-800
+            <input className="artist-name mx-2 sm:mx-0 sm:ml-7 text-2xl flex-grow rounded-xl bg-opacity-60 bg-gray-800
             placeholder-coolGray-300 border-transparent font-semibold capitalize
             transition duration-500 ease-in-out 
             hover:bg-opacity-80 hover:text-coolGray-100
