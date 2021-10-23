@@ -50,7 +50,7 @@ const EventData =({eventData}) => {
                         <div className="year font-light text-sm">{getFormattedYear(eventData.eventdate)}</div>
                     </div>
             </div>
-            <div className="artistName h-full min-w-1/3 max-w-2/5 flex items-center">
+            <div className="artistName h-full w-2/5 flex items-center">
                     <div className="icon p-4 m-2 h-14 w-14 rounded-full bg-cover bg-center bg-no-repeat"
                     style={{backgroundImage: `url(${findArtistImage(eventData.artistname)})` }}></div>
                     <div className="name pl-5 text-2xl font-bold tracking-wider capitalize ">{eventData.artistname} 

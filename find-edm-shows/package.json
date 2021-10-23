@@ -1,6 +1,5 @@
 {
   "name": "find-edm-shows",
-  "homepage": "https://weironiottan.github.io/FindEDMShowsVegasReact/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -24,7 +23,6 @@
     "build": "craco build",
     "test": "craco test",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
