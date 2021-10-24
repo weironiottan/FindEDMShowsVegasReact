@@ -61,6 +61,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+[product-screenshot]
+
 Website: https://www.edmvegas.club/
 
 This website shows all the different edm shows and djs playing in vegas. I personally love EDM and I live close enough to Vegas to be able
@@ -89,10 +91,6 @@ on Netlify. However you could literally fork this project and deploy it to Netli
 is that you give credit where credit is due :) 
 
 Don't be shy, if you like it, send me an email! If you don't like it, send me an email! for anything else, send me an email!
-
-
-[![Product Name Screen Shot][product-screenshot]]
-
 
 
 ### Built With
