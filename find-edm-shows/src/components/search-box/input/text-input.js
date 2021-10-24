@@ -20,7 +20,7 @@ function TextInput({ textInputProp, textValueChangedProp }) {
             hover:bg-opacity-80 hover:text-coolGray-100
             focus:bg-opacity-90 focus:ring focus:border-transparent focus:ring-coolGray-600"                 
             type="text" name="artist-name" id="artist-name" value={textInputValue}
-            onChange={ e => setTextInputValue(e.target.value) } placeholder={textInputProp} />
+            onChange={ e => setTextInputValue(e.target.value.toLowerCase()) } placeholder={textInputProp} />
         </>
     )
 
