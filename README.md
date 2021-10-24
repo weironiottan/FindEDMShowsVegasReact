@@ -65,7 +65,7 @@
 
 Website: https://www.edmvegas.club/
 
-This website shows all the different edm shows and djs playing in vegas. I personally love EDM and I live close enough to Vegas to be able
+This Website shows all the different EDM shows and djs playing in Las Vegas. I personally love EDM and I live close enough to Vegas to be able
 see the different shows year round.  There was one problem though, it is really hard to find out what club in Vegas plays which  DJ.
 As an example I really like Martin Garrix however I didn't know he was playing at a certain date in Vegas. It was not on his website,
 neither on any of the other aggregate EDM Las Vegas Websites. I even tried a couple of APIs such as ticket master or bands in town. 
