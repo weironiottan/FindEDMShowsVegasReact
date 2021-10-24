@@ -61,7 +61,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[product-screenshot]
+![Product Name Screen Shot][product-screenshot]
 
 Website: https://www.edmvegas.club/
 
