@@ -12,10 +12,10 @@
 <!-- PROJECT LOGO -->
 <br />
 
-<h3 align="center">Find EDM Shows/DJS in Las Vegas Website</h3>
+<h3 align="center">Find EDM Shows/DJs in Las Vegas</h3>
 
   <p align="center">
-    This Web App shows all the clubs in Las Vegas that host edm events. Want to find what date a particular DJ plays at which Clubs?
+    This Web App shows all the clubs in Las Vegas that host EDM Events. Want to find what date a particular DJ plays at which Clubs?
     You can search by Club Name, Artist Name, Date or just get all the events for all clubs that play EDM Music!
     <br />
     <a href="https://github.com/weironiottan/FindEDMShowsVegasReact"><strong>Explore the docs »</strong></a>
