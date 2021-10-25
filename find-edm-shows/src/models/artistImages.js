@@ -63,6 +63,10 @@ import zenfreemanImg from '../images/zen-freeman.png'
 import zhuImg from '../images/zhu.png'
 import thechainsmokersImg from '../images/the-chainsmokers.png'
 import calvinharrisImg from '../images/calvin-harris.png'
+import oliverheldensImg from '../images/oliver-heldens.png'
+import alanwalkerImg from '../images/alan-walker.png'
+import samfeldtImg from '../images/sam-feldt.png'
+
 
 
 function ArtistImages() {
@@ -79,6 +83,11 @@ function ArtistImages() {
         {
             name: 'angie vee',
             image: angieveeImg,
+       
+        },
+        {
+            name: 'alan walker',
+            image: alanwalkerImg,
        
         },
         {
@@ -304,6 +313,11 @@ function ArtistImages() {
        
         },
         {
+            name: 'oliver heldens',
+            image: oliverheldensImg,
+       
+        },
+        {
             name: 'party favor',
             image: partyfavorImg,
        
@@ -346,6 +360,11 @@ function ArtistImages() {
         {
             name: 'steve aoki',
             image: steveaokiImg,
+       
+        },
+        {
+            name: 'sam feldt',
+            image: samfeldtImg,
        
         },
         {
