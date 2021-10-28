@@ -1,4 +1,4 @@
-import artistSpecialGuest from '../../images/special-guest-omnia.jpg'
+import artistSpecialGuest from '../../images/special-guest-placeholder.jpg'
 import {Months, Weekdays} from '../../models/months'
 import { ArtistImages } from '../../models/artistImages'
 
