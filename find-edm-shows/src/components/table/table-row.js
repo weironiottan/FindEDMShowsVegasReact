@@ -48,12 +48,12 @@ function TableRow() {
       }
     return(
     <>
-        {!searchValue ? data.map(eventData => (
-            <EventData eventData={eventData} />
+        {!searchValue ? data.map( (eventData,index) => (
+            <EventData key={index} eventData={eventData} />
         ))
-        : filteredEventData.map(eventData => (
+        : filteredEventData.map( (eventData,index) => (
               
-            <EventData eventData={eventData} />
+            <EventData key={index} eventData={eventData} />
         ) ) }
     </>
     )
