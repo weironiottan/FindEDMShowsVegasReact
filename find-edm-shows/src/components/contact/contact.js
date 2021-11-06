@@ -4,7 +4,7 @@ const Contact = () => {
     <>
         <div className="">
             <div></div>
-            <form name="contact" method="POST" netlify>
+            <form name="contact" method="post" netlify onSubmit="submit">
             
             <div className="flex flex-col  text-coolGray-300 font-semibold text-xl capitalize space-y-5">
                 <label className="flex flex-col">
