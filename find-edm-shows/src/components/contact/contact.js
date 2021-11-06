@@ -11,6 +11,7 @@ const Contact = () => {
                     <span className="mb-3">Full name</span>
                     <input
                     type="text"
+                    name="name"
                     className="
                     rounded-xl bg-opacity-60 bg-gray-800
                     placeholder-coolGray-300 border-transparent font-semibold
@@ -26,6 +27,7 @@ const Contact = () => {
                     <span className="mb-3">Email address</span>
                     <input
                         type="email"
+                        name="email"
                         className="
                         rounded-xl bg-opacity-60 bg-gray-800
                         placeholder-coolGray-300 border-transparent font-semibold
@@ -40,6 +42,7 @@ const Contact = () => {
                 <label className="flex flex-col">
                     <span className="mb-3">Additional details</span>
                     <textarea
+                        name="details"
                         className="
                         rounded-xl bg-opacity-60 bg-gray-800
                         placeholder-coolGray-300 border-transparent font-semibold
