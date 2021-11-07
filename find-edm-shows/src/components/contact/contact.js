@@ -65,6 +65,7 @@ const Contact = () => {
         </div>
         <form name="Demo" netlify method="post">
             <input name="test" type="text" />
+            <button type="submit"></button>
         </form>
     </>
     )
