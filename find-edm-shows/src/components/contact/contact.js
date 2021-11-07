@@ -3,10 +3,14 @@ const Contact = () => {
     return(
     <>
         <div className="">
-            <div></div>
             <form name="contact" method="post" netlify onSubmit="submit">
             <input type="hidden" name="form-name" value="contact" />
             <div className="flex flex-col  text-coolGray-300 font-semibold text-xl capitalize space-y-5">
+                <div className="normal-case">
+                    Please contact me if you think I am missing a club, There is a bug or something not working right.
+                    If you want a feature added let me know! Currently this is a hobby project, so I will try to get 
+                    to it as soon as possible!
+                </div>
                 <label className="flex flex-col">
                     <span className="mb-3">Full name</span>
                     <input
@@ -63,10 +67,6 @@ const Contact = () => {
 
             </form>
         </div>
-        <form name="Demo" netlify method="post">
-            <input name="test" type="text" />
-            <button type="submit">Submit</button>
-        </form>
     </>
     )
 }
