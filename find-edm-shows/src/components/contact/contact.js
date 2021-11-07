@@ -68,7 +68,8 @@ const Contact = () => {
     //         <button type="submit">Submit</button>
     //     </form>
     // </>
-        <form name="Demo" data-netlify="true" netlify method="post">
+        <form name="emo" data-netlify="true" netlify method="post">
+            <input type="hidden" name="form-name" value="demo" />
             <input name="test" type="text" />
             <button type="submit">Submit</button>
         </form>
