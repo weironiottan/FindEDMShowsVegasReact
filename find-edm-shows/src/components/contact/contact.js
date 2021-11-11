@@ -2,8 +2,8 @@
 const Contact = () => {
     return(
     <>
-        <div className="">
-            <form name="contact" method="post" netlify onSubmit="submit">
+        <div className="h-full w-full overflow-y-auto">
+            <form name="contact" method="post" netlify >
             <input type="hidden" name="form-name" value="contact" />
             <div className="flex flex-col  text-coolGray-300 font-semibold text-xl capitalize space-y-5">
                 <div className="normal-case">

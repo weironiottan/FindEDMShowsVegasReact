@@ -34,7 +34,7 @@ function MainLayout() {
             </Route>
             <Route path="contact" element={
                 <section className="main-section h-3/5 p-5 mx-auto max-w-7xl text-white">
-                    <div className="table h-full w-full p-8 mt-2 bg-gray-900 bg-opacity-60 ">
+                    <div className="table h-full w-full p-8 mt-2 bg-gray-900 bg-opacity-60">
                         <Contact />
                     </div>
                 </section>
