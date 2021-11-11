@@ -20,7 +20,7 @@ function DateInput({ dateInputProp,  dateValueChangedProp}) {
             hover:bg-opacity-80 hover:text-coolGray-100
             focus:bg-opacity-90 focus:ring focus:border-transparent focus:ring-coolGray-600
             "                 
-            type="date" name="date" id="date" value={dateInputValue}
+            type="date" id="date" value={dateInputValue}
             onChange={ e => setDateInputValue(e.target.value) } placeholder={dateInputProp} />
         </>
     )
