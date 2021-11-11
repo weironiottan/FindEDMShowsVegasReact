@@ -2,7 +2,7 @@
 const Contact = () => {
     return(
     <>
-        <div className="">
+        <div className="h-full w-full overflow-y-auto">
             <form name="contact" method="post" netlify onSubmit="submit">
             <input type="hidden" name="form-name" value="contact" />
             <div className="flex flex-col  text-coolGray-300 font-semibold text-xl capitalize space-y-5">
