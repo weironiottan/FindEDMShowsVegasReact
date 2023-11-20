@@ -3,11 +3,11 @@ import { useQuery } from "react-query";
 import { useContext } from 'react';
 import { SearchBoxContext } from '../../contexts/searchBoxContext';
 import EventData from './event-data';
-import Loader from "react-loader-spinner";
+import {Bars} from "react-loader-spinner";
 
 
 const getEDMEventsResults = async () => {
-    const { data } = await axios.get(`https://salty-sea-11177.herokuapp.com/find-edm/all-events`);
+    const { data } = await axios.get(`https://edmeventsapigo-production.up.railway.app/find-edm/all-events`);
     return data    
 }
 
@@ -22,7 +22,7 @@ function TableRow() {
 
     if (isLoading) {
         return   <div className="flex justify-center items-center pt-20">
-            <Loader type="Bars" color="#eeeeee" height={100}width={100} />
+            <Bars type="Bars" color="#eeeeee" height={100}width={100} />
         </div>
         
       }
@@ -34,14 +34,14 @@ function TableRow() {
       if (!!searchValue) {
           switch (selectedSearchValue) {
               case 'club name':
-                filteredEventData = data.filter((eventData) => eventData.clubname.includes(searchValue))
+                filteredEventData = data.filter((eventData) => eventData.ClubName.includes(searchValue))
                   break;
               case 'date':
-                filteredEventData = data.filter(eventData => Date.parse(eventData.eventdate) >= Date.parse(searchValue)) 
+                filteredEventData = data.filter(eventData => Date.parse(eventData.EventDate) >= Date.parse(searchValue))
                   break;
 
               default:
-                filteredEventData = data.filter((eventData) => eventData.artistname.includes(searchValue))
+                filteredEventData = data.filter((eventData) => eventData.ArtistName.includes(searchValue))
                   break;
 
           }
@@ -52,7 +52,7 @@ function TableRow() {
             <EventData key={index} eventData={eventData} />
         ))
         : filteredEventData.map( (eventData,index) => (
-              
+
             <EventData key={index} eventData={eventData} />
         ) ) }
     </>
