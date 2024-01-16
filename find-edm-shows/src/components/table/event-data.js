@@ -3,26 +3,26 @@ import {Months, Weekdays} from '../../models/months'
 import { ArtistImages } from '../../models/artistImages'
 
 function getFormattedMonth(wholeDateStringUTC) {
-    const currentMonth = new Date(wholeDateStringUTC).getMonth()
+    const currentMonth = new Date(wholeDateStringUTC).getUTCMonth()
     return Months.find((month, index) => {
         return (index === currentMonth) && month
     }) 
 }
 
 function getFormattedDay(wholeDateStringUTC) {
-    const currentDay = new Date(wholeDateStringUTC).getDate()
+    const currentDay = new Date(wholeDateStringUTC).getUTCDate()
     return currentDay;
 }
 
 function getFormattedWeekday(wholeDateStringUTC) {
-    const currentWeekday = new Date(wholeDateStringUTC).getDay()
+    const currentWeekday = new Date(wholeDateStringUTC).getUTCDay()
     return Weekdays.find((weekday, index) => {
         return (index === currentWeekday) && weekday
     }) 
 }
 
 function getFormattedYear(wholeDateStringUTC) {
-    const currentYear = new Date(wholeDateStringUTC).getFullYear()
+    const currentYear = new Date(wholeDateStringUTC).getUTCFullYear()
     return currentYear;
 }
 
