@@ -7,7 +7,7 @@ import {Bars} from "react-loader-spinner";
 
 
 const getEDMEventsResults = async () => {
-    const { data } = await axios.get(`https://edmeventsapigo-production.up.railway.app/find-edm/all-events`);
+    const { data } = await axios.get(`https://edm-events-las-vegas-api-223895091580.us-central1.run.app/find-edm/all-events`);
     return data    
 }
 
